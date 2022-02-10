@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+.header {
+    background-color: #1f2937;
+    padding: 0 10%;
+    color: #fff;
+}
+
+
+.sub-header, .slider {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.slider {
+    padding: 5rem 1rem;
+}
+
+.logo {
+    flex:1;
+    font-weight: 800;
+}
+
+.sl-1 {
+    margin-right: 5rem;
+}
+
+.sl-1 button {
+    background-color: #3882f6;
+    font-weight: 800;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.sl-1 h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.block1 {
+    padding: 0 10%;
+
+}
+.block{
+
+border: 2px solid #3882f6;
+border-radius: 5px;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+}
+
+.blocks p {
+    font-size: 10px;;
+}
+
+.blocks div {
+    display: inline-block;
+    margin-right: 2rem;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.blocks {
+    text-align: center;
+}
+
+.block-1 {
+    padding: 2% 5%;
+    margin: 2rem 0 5rem;;
+}
+
+.block-1 h1 {
+    text-align: center;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 2rem;
+}
+
+.block-2 {
+    background-color: #e5e7eb;
+    padding: 20%;
+}
+
+.block-2 p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937
+}
+
+.block-2 h5 {
+    text-align: right;
+}
+
+.footer {
+    padding: 8rem;
+}
+
+.cta {
+    width: 100%;
+    display: flex;
+    background-color: #3882f6;
+    padding: 5rem;
+    box-sizing: border-box;
+
+}
+
+.cta .left {
+    flex: 1 1 auto;
+    font-size: 12px;;
+}
+
+.right button {
+     padding: 0.5rem 2rem;   
+}
